@@ -4,10 +4,10 @@ def get_random(n, s):
 
 
 def new_function():
-    pass
-
+    print('Refactored')
 
 if __name__ == '__main__':
     print('Hello world')
     get_random()
     print('Hello')
+
