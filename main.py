@@ -1,10 +1,11 @@
-def get_random(n):
+def get_random(n, s):
     import random
-    random.randint(0, n)
+    random.randint(s, n)
+
 
 def new_function():
     print('Refactored')
-    
+
 if __name__ == '__main__':
     print('Hello world')
     get_random()
