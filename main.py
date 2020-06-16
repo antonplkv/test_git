@@ -1,6 +1,6 @@
-def get_random(n):
+def get_random(n, s):
     import random
-    random.randint(0, n)
+    random.randint(s, n)
     
     
 if __name__ == '__main__':
